@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Heebo", sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("./background.jpg");
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+
+.big-text {
+  position: absolute;
+  top: 20%;
+  left: 47%;
+  transform: translate(-50%, -30%);
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: whitesmoke;
+}
+
+.intro {
+  background: #1d88aa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  color: whitesmoke;
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: #1d88aa;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.slider {
+  background: #1d88aa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}

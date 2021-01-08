@@ -1,1 +1,3 @@
-# chaperoonotes
+# Chaperoo Notes
+
+## Run the Application
